@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.text-container {
+  background-color: #ECECEC;
+}
+.header {
+  background-color: #ECECEC;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  padding-right: 15px;
+}
+.logo {
+  margin: 30px;
+  cursor: pointer;
+}
+.nav {
+  color: #13203C;
+  margin-top: 30px; 
+  padding-right: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.nav span {
+  padding-right: 15px;
+  cursor: pointer;
+}
+.nav span:hover {
+  color: #FBBB47;
+}
+.nav .on-click {
+  color: #FBBB47;
+} 
+.main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.main h1 {
+  color: #13203C;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60px;
+  text-align: center;
+  line-height: 1.5;
+}
+.main h1 span {
+  color: #FBBB47;
+}
+.main p {
+  line-height: 2;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.main button {
+  padding: 15px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 15px;
+  border-color: #FBBB47;
+  background-color: #FBBB47;
+  font-weight: bold;
+  font-family: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.main button:hover {
+  color: #FBBB47;
+  background-color: transparent;
+}
+.main a {
+  color: transparent;
+}
+.now-streaming {
+  display: flex;
+  padding-left: 15px;
+  height: 100vh;
+}
+.now-streaming img {
+  flex: 0.25;
+  object-fit: contain;
+  padding-right: 15px;
+  cursor: pointer;
+}
+.footer {
+  background-color: #ECECEC;
+  height: 100%;
+  align-items: center;
+}
+.footer-logo img {
+  display: block;
+  margin: 0 auto;
+  padding: 50px;
+  cursor: pointer;
+}
+.footer-nav {
+  text-align: center;
+}
+.footer-nav span {
+  color: #13203C;
+  padding-right: 35px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.footer-nav span:hover {
+  color: #FBBB47;
+}
+.socials {
+  text-align: center;
+}
+.socials img {
+  padding-right: 30px;
+  margin: 30px;
+  cursor: pointer;
+}
+@media screen and (max-width: 900px) and (min-width: 300px) {
+  * {
+    background-color: #ECECEC;
+  }
+  .nav {
+    font-size: 15px;
+  }
+  .main {
+    margin-top: 50px;
+}
+  .main h1 {
+    font-size: 40px;
+  }
+  .main p {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .main button {
+    padding: 10px;
+    font-size: 15px;
+  }
+  .now-streaming {
+    display: none;
+  }
+  .footer-logo img {
+  padding: 30px;
+}
+  .footer-nav span {
+    padding-right: 20px;
+    font-size: 15px;
+  }
+  .socials img {
+    padding-right: 20px;
+    margin: 15px;
+  }
+}
